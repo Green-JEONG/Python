@@ -1,13 +1,14 @@
-print(True)
-print(12)
-print("hello")
+# user_name -> 변수, placeholder => parameter
+def say_hello(user_name):
+  print("hello", user_name, "how are you?") # print에서는 콤마도 사용 가능
 
-print(True, "hello", 12)
+def say_bye():
+  print("bye bye")
 
-# 함수 정의
-def say_hello():
-    print("hello how r u?")
+# 괄호 안 문자, 실제로 전달한 데이터 -> argument
+say_hello("nico") # 괄호 안에 데이터를 받는 function
+say_hello("lynn")
+say_hello("lewis")
+say_hello("ralph")
 
-# 함수 실행(호출)
-say_hello()
 print("hello world")
