@@ -1,7 +1,13 @@
-# 변수의 데이터 재사용
+print(True)
+print(12)
+print("hello")
 
-my_name = "green"
-age = 12
-dead = False
-print("Hello my name is", my_name)
-print("and I'm ", age, " years old")
+print(True, "hello", 12)
+
+# 함수 정의
+def say_hello():
+    print("hello how r u?")
+
+# 함수 실행(호출)
+say_hello()
+print("hello world")
