@@ -1,14 +1,9 @@
-# user_name -> 변수, placeholder => parameter
-def say_hello(user_name):
-  print("hello", user_name, "how are you?") # print에서는 콤마도 사용 가능
+# 함수가 여러 개의 parameter를 받는 법
 
-def say_bye():
-  print("bye bye")
+# parameter: 함수로 전달하는 데이터를 저장하기 위한 placeholder(그릇)
+def say_hello(user_name, user_age,):
+  print("hello", user_name)
+  print("you are", user_age, "years old")
 
-# 괄호 안 문자, 실제로 전달한 데이터 -> argument
-say_hello("nico") # 괄호 안에 데이터를 받는 function
-say_hello("lynn")
-say_hello("lewis")
-say_hello("ralph")
-
-print("hello world")
+# call: 괄호
+say_hello("nico", 12) # argument 순서 중요
