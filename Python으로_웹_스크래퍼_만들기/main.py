@@ -1,7 +1,28 @@
-# parameter에 기본값 주기
-def say_hello(user_name="anonymous"):
-  print("hello", user_name)
+def plus(a=0, b=0):
+  print(a + b)
 
-say_hello("green")
-# say_hello() # 에러
-say_hello()
+def minus(a=0, b=0):
+  print(a - b)
+
+def multiply(a=0, b=0):
+  print(a * b)
+
+def divide(a=0, b=1):
+  print(a / b)
+
+def power_of(a=0, b=0):
+  print(a ** b)
+
+plus(2,3)
+minus(2,3)
+multiply(2,3)
+divide(2,3)
+power_of(2,3)
+
+plus()
+minus()
+multiply()
+divide()
+power_of()
+
+
