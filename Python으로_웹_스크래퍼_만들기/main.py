@@ -1,28 +1,12 @@
-def plus(a=0, b=0):
-  print(a + b)
+# return: 함수 바깥으로 값을 보냄
 
-def minus(a=0, b=0):
-  print(a - b)
+def tax_calc(money):
+  return(money * 0.35)
 
-def multiply(a=0, b=0):
-  print(a * b)
+def pay_tax(tax):
+  print("thank you for paying", tax)
 
-def divide(a=0, b=1):
-  print(a / b)
+to_pay = tax_calc(15000000)
+pay_tax(to_pay)
 
-def power_of(a=0, b=0):
-  print(a ** b)
-
-plus(2,3)
-minus(2,3)
-multiply(2,3)
-divide(2,3)
-power_of(2,3)
-
-plus()
-minus()
-multiply()
-divide()
-power_of()
-
-
+# 위의 값과 동일 pay_tax(tax_cacl(15000000))
